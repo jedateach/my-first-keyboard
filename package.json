@@ -1,0 +1,22 @@
+{
+  "name": "my-first-keyboard",
+  "version": "1.0.0",
+  "description": "A tool for preschoolers to learn how to the keyboard works.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "kids"
+  ],
+  "author": "Jeremy Shipman",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^8.2.1",
+    "electron-reloader": "^1.0.1",
+    "iohook": "^0.6.5"
+  },
+  "dependencies": {
+    "mousetrap": "^1.6.5"
+  }
+}
